@@ -10,7 +10,7 @@ else
         mkdir /home/cloud_backup
 fi
 
-sshfs -o password_stdin -p 7432 Vps79@cloud.itfinden.com:/home/Vps79/ /home/cloud_backup <<< "QazWsxEdc2019"
+sshfs -o password_stdin -p 7432 Vps79@cloud.itfinden.com:/home/Vps79/ /home/cloud_backup <<< "MICLAVESECRETA"
 
 isMounted=`mount | grep Vps79@cloud.itfinden.com`
 
